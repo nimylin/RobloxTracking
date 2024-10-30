@@ -6,4 +6,7 @@
   3. 'bottoken' is the discord bot token you want it to run on
   4. 'channelid' id of a channel to post info about results
   5. 'robloxcookie' cookie of a roblox account (can be any acc)
-2. Now run it ```node main.js```
+  
+  
+  
+  Now run it ```node main.js```
