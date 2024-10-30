@@ -7,7 +7,10 @@
   4. 'channelid' id of a channel to post info about results
   5. 'robloxcookie' cookie of a roblox account (can be any acc)
   
-  
+**Commands**
+  1. '.track' takes two arguments [userid] and then [gameid] (searches player in a specific game)
+  2. '.add' takes one argument [userid] (adds user to a daily tracking)
+  3. '.remove' takes one argument [userid] (deletes user from a daily tracking)
   
 **Now run it** 
 ```node main.js```
