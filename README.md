@@ -23,3 +23,4 @@ node main.js
   3. '.remove' takes one argument [userid] (deletes user from a daily tracking)
 
 Made by @nimylin and @dot.lol
+Enjoy!!
