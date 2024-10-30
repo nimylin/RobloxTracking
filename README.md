@@ -13,7 +13,9 @@ npm -i discord.js-selfbot-v13
   5. 'robloxcookie' cookie of a roblox account (can be any acc)
 
 **Now run it** 
-```node main.js```
+```
+node main.js
+```
   
 **Commands**
   1. '.track' takes two arguments [userid] and then [gameid] (searches player in a specific game)
