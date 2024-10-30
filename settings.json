@@ -1,0 +1,7 @@
+{
+    "badgescount": 10,
+    "gamecount": 10,
+    "bottoken": "Discord bot token here",
+    "channelId": "Put id of a channel where you want to post info about findings",
+    "robloxcookie": "Put roblox account cookie here (it can be any account, alt account is perfect)"
+}
