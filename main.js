@@ -278,6 +278,18 @@ client.on('messageCreate', async (message) => {
                 message.channel.send('Error adding user to tracking.');
                 console.error('Error fetching Roblox user data:', error);
             });
+
+    } else if (message.content.startsWith('.remove')) {
+        const args = message.content.split(' ');
+        const robloxUserId = args[1];
+        const index = trackedUsers.findIndex(user => user.id === robloxUserId);
+        if (index !== -1) {
+            const removedUser = trackedUsers.splice(index, 1)[0];
+                fs.writeFileSync('./ids.json', JSON.stringify({ tracked_users: trackedUsers }, null, 2));
+                message.channel.send(`removed user ${removedUser.username} (${removedUser.id}) from tracking`);
+            } else {
+                message.channel.send('User not found in tracking list.');
+            }
     } else if (message.content.startsWith('.track')) {
         const args = message.content.split(' ');
         if (args.length !== 3) {
