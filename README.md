@@ -11,3 +11,5 @@
   
 **Now run it** 
 ```node main.js```
+
+Made by @nimylin and @dot.lol
